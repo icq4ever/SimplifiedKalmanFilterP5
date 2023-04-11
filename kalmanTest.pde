@@ -1,7 +1,7 @@
 float randomValue=25.0;
 float lastValue = 0.;
 float alphaValue =0.;
-float alpha = 0.1;
+float alpha = 0.1;    // weight filtering coef. (weighted moving average)
 float estimateValue;
 
 float varianceProcess, varianceEstimateMeasurement;
