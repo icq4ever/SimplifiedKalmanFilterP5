@@ -1,9 +1,9 @@
 class KalmanFilter{
 
-  float varProcess;              // process Variance              // 프로세스공분산
-  float varEstimateMeasurement;  // estimate mesurement Variance  // 측정공분산
-  float postEstimate;            // posteri estimate        추정공분산
-  float postErrorEstimate;       // posteri error estimate  추정에러공분산
+  float varProcess;              // process Variance              // 프로세스 공분산
+  float varEstimateMeasurement;  // estimate mesurement Variance  // 측정 공분산
+  float postEstimate;            // posteri estimate              // 추정된 값
+  float postErrorEstimate;       // posteri error estimate        // 추정값 에러공분산
 
   // constructor
   KalmanFilter(float _varP, float _varEM){
